@@ -1,0 +1,246 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff6b81;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.75rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #ff4757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/img/gau-bong-dau-tay-lotso-ngoi.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #ff4757;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e63946;
+}
+
+/* Content Section */
+.content {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features {
+    margin-top: 2rem;
+}
+
+.features h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-item {
+    margin: 1rem 0;
+}
+
+.feature-item h4 {
+    font-size: 1.5rem;
+    color: #ff6b81;
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Products Section */
+.products {
+    margin: 2rem 0;
+}
+
+.products h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    width: 300px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h4 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.product-item p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff4757;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #e63946;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+}
+
+.pagination a:hover {
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+}
+
+/* Footer
+/* Footer Styles */
+footer {
+    background-color: #2f3640; /* Màu nền tối cho footer */
+    color: #fff; /* Màu chữ trắng */
+    padding: 2rem; /* Khoảng cách bên trong */
+    text-align: center; /* Canh giữa nội dung */
+    margin-top: 2rem; /* Khoảng cách giữa footer và phần nội dung trên */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    max-width: 1000px; /* Giới hạn chiều rộng của footer */
+    margin: 0 auto; /* Canh giữa theo chiều ngang */
+}
+
+.footer-content p {
+    margin: 0.5rem 0; /* Khoảng cách giữa các đoạn văn bản */
+    font-size: 1rem; /* Kích thước chữ vừa phải */
+}
+
+ul.social-media {
+    list-style: none; /* Bỏ gạch đầu dòng */
+    display: flex;
+    justify-content: center; /* Canh giữa các biểu tượng mạng xã hội */
+    margin: 1rem 0; /* Khoảng cách bên trên và dưới */
+    padding: 0;
+}
+
+ul.social-media li {
+    margin: 0 1rem; /* Khoảng cách giữa các biểu tượng */
+}
+
+ul.social-media li a {
+    color: #fff; /* Màu trắng cho các liên kết */
+    font-size: 1.25rem; /* Kích thước lớn hơn cho biểu tượng */
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+ul.social-media li a:hover {
+    color: #ff4757; /* Màu khi hover */
+}
+
+.footer-content .address {
+    margin-top: 1rem;
+    font-size: 0.9rem; /* Kích thước nhỏ hơn cho địa chỉ và số điện thoại */
+    color: #bdc3c7; /* Màu xám nhạt cho địa chỉ và số điện thoại */
+}
